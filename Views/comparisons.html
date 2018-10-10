@@ -12,77 +12,81 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar_collapse_btn" aria-expanded="true">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class='navbar-brand' href="index.html">Latitude</a>
-            </div>
-            <div class="collapse navbar-collapse" id="navbar_collapse_btn">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots<span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="cloudiness.html">Cloudiness</a></li>
-                            <li><a href="humidity.html">Humidity</a></li>
-                            <li><a href="maxtemp.html">Max Temperature</a></li>
-                            <li><a href="windspeed.html">Windspeed</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="comparisons.html">Comparison</a>
-                    </li>
-                    <li>
-                        <a href="data.html">Data</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <div class='container-fluid'>
-        <div class='row'>
-            <div class='col-md-1 col-sm-0'></div>
-            <div class='col-md-10 main_section'>
-                <div class="row">
-                    <h1 class="page_header">Comparison: Latitude vs. X</h1>
-                    <hr>
+    <div class='main_wrapper'>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar_collapse_btn" aria-expanded="true">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class='navbar-brand' href="index.html">Latitude</a>
                 </div>
-                <div class="row">
-                    <div class="col-md-12">
+                <div class="collapse navbar-collapse" id="navbar_collapse_btn">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="cloudiness.html">Cloudiness</a></li>
+                                <li><a href="humidity.html">Humidity</a></li>
+                                <li><a href="maxtemp.html">Max Temperature</a></li>
+                                <li><a href="windspeed.html">Windspeed</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="comparisons.html">Comparison</a>
+                        </li>
+                        <li>
+                            <a href="data.html">Data</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class='container-fluid' style="margin-bottom: 75px;">
+            <div class='row'>
+                <div class='col-md-1 col-sm-0'></div>
+                <div class='col-md-10 main_section'>
+                    <div class="row">
+                        <h1 class="page_header">Comparison: Latitude vs. X</h1>
+                        <hr>
+                    </div>
+                    <div class="row">
                         <p>Click any plot to get an in-depth analysis</p>
-                        <div class="col-md-6">
-                            <h4 class='page_header compare_header'>vs. Cloudiness</h4>
-                            <a href="../Images/cloudiness.png" target="_blank">
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12" style="margin-top: 20px;">
+                            <div class="col-md-6 col-sm-12">
+                                <h4 class='page_header compare_header'>vs. Cloudiness</h4>
+                                <a href="cloudiness.html" target="_blank">
                                 <img class='pull-left compare_image' src="../Images/cloudiness.png">
                             </a>
-                        </div>
-                        <div class="col-md-6">
-                            <h4 class='page_header compare_header'>vs. Humidity</h4>
-                            <a href="../Images/humidity.png" target="_blank">
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <h4 class='page_header compare_header'>vs. Humidity</h4>
+                                <a href="humidity.html" target="_blank">
                                 <img class='pull-left compare_image'' src="../Images/humidity.png">
                             </a>
-                        </div>
-                        <div class="col-md-6">
-                            <h4 class='page_header compare_header'>vs. Maximum Temperature</h4>
-                            <a href="../Images/maxtemp.png" target="_blank">
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <h4 class='page_header compare_header'>vs. Maximum Temperature</h4>
+                                <a href="maxtemp.html" target="_blank">
                                 <img class='pull-left compare_image'' src="../Images/maxtemp.png">
                             </a>
-                        </div>
-                        <div class="col-md-6">
-                            <h4 class='page_header compare_header'>vs. Windspeed</h4>
-                            <a href="../Images/windspeed.png" target="_blank">
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <h4 class='page_header compare_header'>vs. Windspeed</h4>
+                                <a href="windspeed.html" target="_blank">
                                 <img class='pull-left compare_image'' src="../Images/windspeed.png">
                             </a>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <div class='col-md-1 col-sm-0'></div>
             </div>
-            <div class='col-md-1 col-sm-0'></div>
         </div>
         <div class="row" id="footer">
             <h5>&copy; Copyright Stacy Marshall 2018</h5>
